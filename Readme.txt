@@ -1,7 +1,7 @@
 
 Appium Installation Guide for Windows
 
-This README provides a step-by-step guide to install Appium on Windows and run an Android project.
+This README provides a step by step guide to install Appium on Windows and run an Android project.
 
 ###################################################
 
