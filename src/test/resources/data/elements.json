@@ -1,0 +1,44 @@
+{
+  "loginPage": {
+    "loginScreen": "//android.view.View[@content-desc=\"Login\"]",
+    "loginTab": "(//android.widget.TextView[@text=\"Login\"])[1]",
+    "loginEmailField": "//android.widget.EditText[@content-desc=\"input-email\"]",
+    "loginPasswordField": "//android.widget.EditText[@content-desc=\"input-password\"]",
+    "loginBtn": "//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]",
+    "loginSuccessMsg": "//android.widget.TextView[@text=\"You are logged in!\"]\n",
+    "signInAlertOKBtn": "//android.widget.Button[@text=\"OK\"]"
+
+  },
+
+  "signUp": {
+    "signUpTab": "//android.widget.TextView[@text=\"Sign up\"]",
+    "signUpEmailField": "//android.widget.EditText[@content-desc=\"input-email\"]",
+    "signUpPasswordField": "//android.widget.EditText[@content-desc=\"input-password\"]",
+    "signUpRepeatPasswordField": "//android.widget.EditText[@content-desc=\"input-repeat-password\"]",
+    "signUpBtn": "//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]",
+    "signUpAlertMessage": "//android.widget.TextView[@text=\"You successfully signed up!\"]",
+    "signUpAlertOKBtn": "//android.widget.Button[@text=\"OK\"]"
+  },
+
+  "formSection": {
+    "formScreen": "//android.view.View[@content-desc=\"Forms\"]",
+    "checkFormScreen": "//android.widget.TextView[@text=\"Form components\"]",
+    "formInputField": "//android.widget.EditText[@content-desc=\"text-input\"]",
+    "checkFormInput": "//android.widget.TextView[@text=\"Hello\"]\n",
+    "tabSwitchToggle": "//android.widget.Switch[@content-desc=\"switch\"]",
+    "checkSwitchOnMsg": "//android.widget.TextView[@text=\"Click to turn the switch ON\"]",
+    "checkSwitchOffMsg": "//android.widget.TextView[@text=\"Click to turn the switch OFF\"]",
+    "dropDownList": "//android.widget.EditText[@resource-id=\"text_input\"]",
+    "selectDropListOP2": "//android.widget.CheckedTextView[@resource-id=\"android:id/text1\" and @text=\"Appium is awesome\"]",
+    "checkDropListOP2": "//android.widget.EditText[@text=\"Appium is awesome\"]",
+    "activeBtn": "//android.view.ViewGroup[@content-desc=\"button-Active\"]",
+    "checkActiveBtn": "//android.widget.TextView[@text=\"This button is active\"]",
+    "activeOkBtn": "//android.widget.Button[@text=\"OK\"]"
+
+  },
+
+  "swipeSection":{
+    "swipeScreen": "//android.view.View[@content-desc=\"Swipe\"]",
+    "supportVideosTxt": "//android.widget.TextView[@text=\"SUPPORT VIDEOS\"]"
+  }
+}

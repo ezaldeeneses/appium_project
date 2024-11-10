@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android_wdiodemoapp">
+    
+<test name = "Android_Test_wdiodemoapp">
+
+<!--    <parameter name="emulator" value="true"></parameter>-->
+    <parameter name="platformName" value="Android"></parameter>
+    <parameter name="udid" value="emulator-5554"></parameter>
+    <parameter name="deviceName" value="Pixel_6"></parameter>
+    <parameter name="systemPort" value="10000"></parameter>
+        <classes>
+            <class name="org.wdiodemoapp.test.FlowTest"></class>
+
+        </classes>
+    </test>
+</suite>

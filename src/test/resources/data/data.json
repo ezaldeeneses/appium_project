@@ -1,0 +1,9 @@
+{
+  "signUpData":{
+    "signUpEmail": "test@test.co",
+    "signUpPass": "12345678"
+  },
+  "formData" : {
+    "formInputData": "Hello"
+  }
+}
