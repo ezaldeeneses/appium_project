@@ -26,8 +26,7 @@ public class Base {
     //@Optional -> means we are setting the default value
     public void beforeTest( String platformName, String udid, String deviceName, @Optional String systemPort) throws Exception {
 
-//        Platform.setPlatform(platformName);
-//        Device.setDeviceName(deviceName);
+        //This will get appium url from config file
         URL url = new URL(Config.getInstance().getAppiumURL());
 
         try {
