@@ -1,7 +1,7 @@
 
 Appium Installation Guide for Windows
 
-This README provides a step by step guide to install Appium on Windows and run an Android project.
+This README provides a step-by-step guide to install Appium on Windows and run an Android project.
 
 ###################################################
 
@@ -25,8 +25,8 @@ Step 1: Install Java Development Kit (JDK)
    - Right-click on "This PC", and click "Properties".
    - Click "Advanced System Settings", and then click "Environment Variables".
    - Under "System Variables", click "New" and enter:
-     - Variable name: 'JAVA_HOME'
-     - Variable value: Path to your JDK installation (e.g 'C:\Program Files\Java\jdk-17.0.8')
+     - Variable name: 'JAVA_HOME'.
+     - Variable value: Path to your JDK installation (e.g 'C:\Program Files\Java\jdk-17.0.8').
 4. Add Java to the 'PATH' environment variable:
    - In the "Environment Variables" window, find the 'Path' variable under "System variables" and click "Edit".
    - Add the "bin" directory of the JDK to the path (e.g 'C:\Program Files\Java\jdk-17.0.8\bin').
